@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [our coding standards][commit-messages] for commit guidelines.
 
+## [0.2.0](https://github.com/silvermine/service-web/compare/v0.1.1...v0.2.0) (2026-08-06)
+
+
+### Features
+
+* add --parallel option for deploys ([5bcf820](https://github.com/silvermine/service-web/commit/5bcf8204d80a01e5df99a4fcd965c9d4dc842e42))
+* add deploy-plan command to make deployment order mermaid graph ([d8289bf](https://github.com/silvermine/service-web/commit/d8289bf1a773bad37860e11955a285570d8599b6))
+
+
+### Bug Fixes
+
+* draw line to root deps when all explicit deps are root deps ([57d1598](https://github.com/silvermine/service-web/commit/57d1598faf5ca37b5e6a8bc9702bccbcb137628c))
+* make command-failure output concise by default ([a92ac7c](https://github.com/silvermine/service-web/commit/a92ac7c5912ad2ebc5b454593f4582c746d60c24))
+* reset lastService iterator ([86926d5](https://github.com/silvermine/service-web/commit/86926d597e28829ee0354ad32592e454da515943))
+
+
 ### 0.1.1 (2023-12-03)
 
 
